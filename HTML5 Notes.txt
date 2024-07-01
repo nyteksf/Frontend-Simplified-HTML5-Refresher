@@ -1,0 +1,31 @@
+HTML5 Notes:
+
+Head tag contains meta info, links to CSS, JS files, and title.
+Header is for navlinks, etc
+Body is for displayed text and such
+Footer for bottom of page
+<h1> is typically used once, and then <h2> for sub headings, and <h3> for any sub-sub headings, etc.
+<main> is for the main body content; sandwiched between <head> and <footer>
+<nav> is semantically correct for navigation (typically at the top)
+<section> is semantically correct code for defining separate blocks, such as two <ul>'s
+
+Block element takes up full width and starts on new line. 
+Inline elements, like images, don't start on new line, and only take up as much space as necessary.
+
+Visual Code keyboard shortcut: 
+	move element up/down w/out mouse: alt+up/down arrow key
+	delete line: ctrl+x
+
+Anchor tag: target="_blank" to open URL in new tab.
+
+Linking to a page in the same URL at the root level only requires ...href="/pagename.html">
+To link to a file or folder in the same level specifically, must use "href="./foldername/filename.ext">
+To go back one directory, like in Linux or CMD, use "../foldername/file.ext">, as last example won't work if the folder is in the parent folder.
+
+When using <label> in HTML5, for="", should match the id of the element being labeled. Clicking the label focuses on the linked-to input.
+
+<input />: Self-closing tag, and has options like text, password, number or date. All of these will format the input respectively. To make an input required, literally add the word at the end: <input type="email" required/>
+
+<textarea>: Set the height with rows: eg. <textarea rows="10">
+
+<span>: is used when you want to apply more than one tag to a given snippet of text. 
